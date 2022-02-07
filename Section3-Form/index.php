@@ -7,26 +7,26 @@
 </head>
 <body>
 
-	<form action="recibe.php" method >
+	<form action="recibe.php" method="post" >
 		<!--con action podemos especificar dónde queremos enviar nuestros datos--> 
 		<input type="text" placeholder="Nombre" name='nombre'>
 		<br>
 
 		<label for="hombre">Hombre</label>
-		<input type="radio" name="sexo" value="Hombre" id="hombre">
+		<input type="radio" name="sexo" value="hombre" id="hombre">
 		<!--con name pasamos los valores-->
 		
 		<label for="mujer">Mujer</label>
-		<input type="radio" name="sexo" value="Hombre" id="mujer">
+		<input type="radio" name="sexo" value="mujer" id="mujer">
 		<br>
 		
 		<select name="year" id="year">
-			<option value="2000">2000</option>
-			<option value="2001">2001</option>
-			<option value="2002">2002</option>
-			<option value="2003">2003</option>
-			<option value="2004">2004</option>
-			<option value="2005">2005</option>
+			<option ></option>
+			<option value="1990">1990</option>
+			<option value="1991">2001</option>
+			<option value="1992">1992</option>
+			<option value="1993">1993</option>
+			
 		</select>
 		<br>
 
